@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #003366;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    margin: 0 0 1rem;
+}
+
+.hero .btn {
+    background: #003366;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.testimonials blockquote {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* CCTV Section */
+.cctv {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.cctv h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #003366;
+}
+
+.cctv p {
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.cctv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.cctv-item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cctv-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.cctv-item h3 {
+    margin-bottom: 0.5rem;
+    color: #003366;
+}
+
+.cctv-item p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.cctv-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
